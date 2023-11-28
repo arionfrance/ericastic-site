@@ -1,2 +1,2 @@
 ## ericastic-site
-Site pour menage 
+Site pour menage client
