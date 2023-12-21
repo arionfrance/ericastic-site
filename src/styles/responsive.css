@@ -1,0 +1,107 @@
+/* HAMBURGER */
+@media screen and (min-width: 851px) {
+    .hamburger-icon, #menu-toggle {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        background-color:  var(--header-background);
+    }
+    .header .header-nav .header-link {
+        margin: 0;
+    }
+    .header-link {
+        display: none;
+    }
+    .hamburger-icon {
+        cursor: pointer;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-toggle:checked + .hamburger-icon + .links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        box-shadow: 0px 10px 9px -6px #6e6e6e;
+        background-color: var(--header-background);
+        padding: 12.5px;
+        width: 50%;
+    }
+    .centerLink, .button-links{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+    }
+
+    a {
+        padding: 10px 0;
+        font-size: var(--global-font-size);
+        color: var(--header-link-color);
+    }
+
+    .menu-toggle:checked + .button-links{
+        display: none;
+        visibility: hidden;
+    }
+
+    .header-link button {
+        width: auto; height: auto;
+        background: var(--global-button-background);
+        color: var(--global-button-color);
+        padding: 15px 30px;
+        border-radius: 100px;
+        border: 0;
+        gap: 8px;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+    .header-link button img {
+        margin-right: 20px;
+        height: 16px; width: 16px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    :root {
+        --global-font-size: 12px;
+    }
+    button {
+        font-size: var(--global-font-size);
+        padding: 10px;
+    }
+    .header-link button img {
+        margin-right: 10px;
+        height: 16px; width: 16px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    :root {
+        --global-font-size: 10px;
+    }
+    .header-link button img {
+        margin-right: 10px;
+        height: 10px; width: 10px;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    .header-button {
+        font-size: 8px;
+    }
+}
