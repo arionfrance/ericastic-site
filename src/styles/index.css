@@ -1,0 +1,381 @@
+:root {
+    --header-background: #121933;
+    --header-link-color: #FFF;
+    --global-button-background: #F3CB5F;
+    --global-button-color: #000;
+    --section1-background: #E9D7FA;
+    --section3-background: #F4F4F6;
+    --global-font-size: 12px;
+    --global-line-height: 1.8;
+    --section5-background: #FEDFC7;
+    --footer-background: #112E45;
+    --title-font-size: 56px;
+    --subtitle-font-size: 48px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    padding: 0; margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background: var(--header-background);
+}
+.header-logo img {
+    width: 68px;
+    height: 31px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+}
+.header .navbar .links a {
+    font-size: var(--global-font-size);
+    color: var(--header-link-color);
+    margin-right: 10px;
+}
+.links button {
+    cursor: pointer;
+    width: auto; height: auto;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 100px;
+    background: var(--global-button-background); color: var(--global-button-color);
+}
+.links button img {
+    margin-right: 10px;
+}
+
+.section-1 {
+    display: flex;
+    padding: 50px 20px;
+    background: var(--section1-background);
+}
+.section-1 .title {
+    font-size: var(--title-font-size);
+    font-weight: 500;
+}
+.section-1 .txt p {
+    line-height: var(--global-line-height);
+}
+.section-1 .txt button {
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    padding: 10px 25px;
+    background-color: var(--global-button-background);
+    color: var(--global-button-color);
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.section-1 .txt button img {
+    margin-right: 10px;
+}
+.section-1 .img img {
+    width: 100%;
+}
+
+.section-2 {
+    background: #FFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-2 .txt {
+    text-align: center;
+}
+.section-2 .txt .subtitle {
+    font-size: var(--subtitle-font-size);
+    margin-bottom: 25px;
+}
+.section-2 .txt p {
+    font-size: var(--global-font-size);
+    line-height: var(--global-line-height);
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.section-2 .elements {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    text-align: center;
+}
+.section-2 .elements p {
+    font-weight: 500;
+    line-height: var(--global-line-height);
+    font-size: 12px;
+}
+.section-2 .elements .img-element {
+    width: 100%;
+}
+.section-2 .element-1, .section-2 .element-2, .section-2 .element-3 {
+    margin: 0 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.section-3 {
+    background: #F4F4F6;
+}
+.section-3 .txt {
+    text-align: center;
+}
+.subtitle {
+    font-size: var(--subtitle-font-size);
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.section-3 p {
+    font-weight: 500;
+    line-height: var(--global-line-height);
+    font-size: 12px;
+}
+.section-3 .elements {
+    display: flex;
+    padding: 50px 50px;
+}
+.section-3 .element-1 {
+    width: 90%;
+    padding-right: 25px;
+}
+.section-3 .elements .element-1 .txt-1 {
+    margin-bottom: 25px;
+}
+.section-3 .elements .element-1 .txt-2 {
+    margin-bottom: 12.5px;
+}
+.section-3 .elements .element-2 img {
+    width: 100%;
+}
+.section-3 .elements .element-1 button {
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 100px;
+    border: 1px solid #000;
+}
+.section-3 .elements .element-1 button img {
+    margin-right: 10px;
+}
+
+.section-4 {
+    padding: 0 0 50px 0;
+}
+.section-4 .txt {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-4 .txt p {
+    font-size: var(--global-font-size);
+}
+.section-4 .elements .element-1 {
+    display: flex;
+    padding: 25px 25px;
+}
+.section-4 .elements .element-1 .img {
+    width: 48%;
+    padding: 0 25px 0 0;
+}
+.section-4 .elements .element-1 .txt-1 {
+    width: 50%;
+    font-weight: 500;
+    line-height: var(--global-line-height);
+    font-size: var(--global-font-size);
+    padding-right: 25px;
+}
+.section-4 .elements .element-1 .txt-1 p {
+    padding-bottom: 12.5px;
+}
+.section-4 .elements .element-1 .txt-1 button {
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-top: 10px;
+}
+.section-4 .elements .element-1 button img {
+    margin-right: 10px;
+}
+
+.section-5 {
+    background: #112E45;
+    color: #FFF;
+    padding: 50px 0;
+}
+.section-5 .txt {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-5 .txt h3 {
+    padding-bottom: 25px;
+    line-height: 120%;
+}
+.section-5 .txt p {
+    line-height: var(--global-line-height);
+    font-size: var(--global-font-size);
+}
+.section-5 .txt button {
+    margin-top: 25px;
+    cursor: pointer;
+    width: auto; height: auto;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 100px;
+    background: var(--global-button-background); color: var(--global-button-color);
+}
+.section-5 .txt button img {
+    margin-right: 10px;
+}
+
+.section-6 {
+    background: #F4F4F6;
+    padding-bottom: 50px;
+}
+.section-6 .subtitle {
+    text-align: center;
+}
+.section-6 .elements {
+    display: flex;
+    padding: 0 25px;
+}
+.section-6 h4 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.section-6 h4 img {
+    margin-right: 24px;
+    margin-top: 5px;
+}
+.section-6 p {
+    padding-bottom: 32px;
+    font-size: var(--global-font-size);
+    line-height: 150%;
+}
+.section-6 .elements .img {
+    width: 40%;
+    padding-left: 10px;
+}
+.section-6 .elements .title {
+    display: flex;
+    align-items: center;
+}
+.section-6 .elements .title img {
+    padding-right: 20px;
+}
+
+.section-7 {
+    background: #FEDFC7;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 24px;
+}
+.section-7 .content .img {
+    width: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.section-7 .content .txt {
+    display: flex;
+    padding: 25px 50px;
+}
+.section-7 h3 {
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+.section-7 h4 {
+    font-size: 22px;
+}
+.section-7 p {
+    font-size: var(--global-font-size);
+}
+.section-7 .content .txt .part-1 {
+    width: 50%;
+}
+.section-7 .content .txt .part-1 .title {
+    display: flex;
+    align-items: center;
+}
+.section-7 .part-1 .title img {
+    margin-right: 10px;
+}
+.section-7 .part-1 .title h4 {
+    line-height: 120%;
+}
+.section-7 .part-1 p {
+    line-height: var(--global-line-height);
+}
+.section-7 .part-1 .last {
+    padding-bottom: 25px;
+}
+.section-7 .part-1 .title {
+    padding-bottom: 25px;
+}
+.section-7 button {
+    margin-top: 25px;
+    cursor: pointer;
+    width: auto; height: auto;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    background: #FEDFC7;
+}
+.section-7 button img {
+    margin-right: 10px;
+}
+
+.footer .part-1 {
+    display: flex;
+    padding: 50px 50px 75px 50px;
+    justify-content: space-between;
+    background: var(--footer-background);
+    color: #FFF;
+    font-size: var(--global-font-size);
+    line-height: var(--global-line-height);
+}
+.footer h4 {
+    font-size: 18px;
+}
+.footer .part-1 a {
+    color: #FFF;
+    font-size: var(--global-font-size);
+}
+.footer .about {
+    width: 30%;
+}
+.footer .contact img {
+    margin-right: 10px;
+}
+.footer .social {
+    justify-content: space-around;
+}
+.footer .social .logo {
+    padding-top: 10px;
+}
+.footer .social .logo img {
+    margin-left: 10px;
+}
+.footer .part-2 {
+    padding: 10px 0;
+}
