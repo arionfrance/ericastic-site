@@ -384,6 +384,11 @@ a:hover {
     line-height: 1.4;
 }
 
+.video {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .footer .part-1 {
     display: flex;
     padding: 50px 50px 75px 50px;
