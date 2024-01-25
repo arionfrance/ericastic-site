@@ -19,6 +19,9 @@
     padding: 0; margin: 0;
     font-family: Arial, sans-serif;
 }
+img {
+    border-radius: 20px;
+}
 
 h3 {
     font-size: 28px;
@@ -90,6 +93,7 @@ a:hover {
 }
 .section-1 .img img {
     width: 100%;
+    box-shadow: 0 0 20px #000;
 }
 
 .section-2 {
@@ -154,7 +158,8 @@ a:hover {
     padding: 50px 50px;
 }
 .section-3 .element-1 {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
     padding-right: 25px;
 }
 .section-3 .elements .element-1 .txt-1 {
@@ -165,6 +170,7 @@ a:hover {
 }
 .section-3 .elements .element-2 img {
     width: 100%;
+    box-shadow: 0 0 20px #000;
 }
 .section-3 .elements .element-1 button {
     cursor: pointer;
@@ -194,7 +200,9 @@ a:hover {
 }
 .section-4 .elements .element-1 .img {
     width: 48%;
-    padding: 0 25px 0 0;
+    box-shadow: 0 0 20px #000;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 .section-4 .elements .element-1 .txt-1 {
     width: 50%;
@@ -275,7 +283,8 @@ a:hover {
 }
 .section-6 .elements .img {
     width: 40%;
-    padding-left: 10px;
+    margin-left: 10px;
+    box-shadow: 0 0 20px #000;
 }
 .section-6 .elements .title {
     display: flex;
